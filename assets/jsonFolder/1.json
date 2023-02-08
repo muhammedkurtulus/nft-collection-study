@@ -1,0 +1,13 @@
+
+  {
+    "name" : "Bear 1",
+    "description" : "Shopping Bear 1",
+    "image" : "https://ipfs.io/ipfs/QmWr3j99v6S85eFTs26zceevC2KyDodeLdVyy7TTxqxoxj/1.png",
+    "attributes" : [
+      {
+        "type": "Draw",
+        "value": "1"
+      }
+    ]
+  }
+  

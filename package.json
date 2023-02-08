@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat --network PolygonMumbai run scripts/deploy.ts",
+    "deploy1155": "npx hardhat --network PolygonMumbai run scripts/deploy1155.ts",
+    "mint": "npx hardhat --network PolygonMumbai run scripts/mint.ts",
+    "mint1155": "npx hardhat --network PolygonMumbai run scripts/mint1155.ts"
+  }
+}
